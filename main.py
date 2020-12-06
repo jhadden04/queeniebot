@@ -32,7 +32,7 @@ Wish you have a Merry Christmas!
 Best Regards
 Queenie"""  # you need to change this to your message
 
-    subname = 'Johntesting'  # obviously you can add more subreddits to this
+    subname = 'FashionReps'  # obviously you can add more subreddits to this
     usedusernames = []
     for comment in reddit.subreddit(subname).stream.comments():
         name = comment.author.name
